@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobile Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cf6606cf28.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="top">
+        <div class="square"><i class="fa-solid fa-square"></i></div> 
+        <div class="circle"><i class="fa-solid fa-circle"></i></div>
+        <div class="triangle"><i class="fa-solid fa-play"></i></div>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="navbar ">
+                <button class="navbar-toggler" aria-expanded="false" aria-controls="navbar-dropdown">
+                    <span>&#9776;</span>
+                </button>
+                <a href="#">Contact</a>
+            </div>
+            <div class="rightside">
+                <i class=" search fa-solid fa-magnifying-glass"></i>
+                <i class=" dots fa-solid fa-ellipsis-vertical"></i>
+            </div>
+        </div>
+        <div class="main">
+            <form action="#" method="post" class="container-2" >
+                <label for="name">
+                    <i class="fa-solid fa-image-portrait"></i>
+                    <input 
+                           id="name" 
+                           type="text" 
+                           placeholder="Name">
+                </label>
+                <label 
+                    for="phone" >
+                    <i class="fa-solid fa-phone"></i>
+                        <input 
+                            type="tel" 
+                            id="phone" 
+                            placeholder="phone number">
+                    <select id="random">
+                        <option label="label">land-line</option>
+                        <option label="cell">cell</option>
+                        <option label="home">home</option>
+                        <option label="social">social</option>
+                    </select> 
+                </label>
+                
+                <label 
+                    for="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input 
+                        type="text" 
+                        id="location" 
+                        placeholder="address">
+                </label>
+                
+                <label 
+                    for="city">
+                    <input 
+                        type="text" 
+                        id="city" 
+                        placeholder="City">
+                        <select id="state">
+                            <option value="state">state</option>
+                            <option value="AL">Alabama</option>
+                        </select>
+                    </label>
+                
+                <label 
+                    for="zip-code ">
+                        <input 
+                            type="text" 
+                            id="zip-code" 
+                            placeholder="zip">
+                </label>
+                 <label 
+                    for="email">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input 
+                            type="text" 
+                            id="email" 
+                            placeholder="email">
+                </label>
+                 <label 
+                    for="birthday">
+                        <input 
+                        type="date" 
+                        id="birthday" 
+                        placeholder="birthday">
+                </label>
+            </form>
+
+        </div>
+        
+       
+    </nav>
+	
+  </body>
+</html>

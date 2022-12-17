@@ -1,0 +1,5 @@
+colors:
+
+blue var(--wet)
+black var(--night)
+gray var(--mid)
